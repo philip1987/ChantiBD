@@ -1,0 +1,63 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background: #1e1c31;
+	color: white;
+	font-family: 'Lexend', sans-serif;;
+	margin-left: 0px; 
+	padding-top: 5vh;
+
+}
+.container {
+	width: 100%;
+	justify-content: center;
+}
+.title {
+	justify-content: center;
+	display: flex;
+}
+h1 {
+	font-weight: 400;
+	font-size: 8vw;
+}
+
+.audi {
+	padding-left: 10px;
+	font-weight: 600;
+}
+
+.hero {
+	background-color: #3E3859;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 0.3vw;
+	padding-bottom: 0.3vw;
+}
+p {
+	font-size: 3.5vw;
+}
+
+h3 {
+	font-size: 4vw;
+}
+.hero p,h3 {
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+
+button {
+	margin: 0 auto;
+	display: flex;
+	justify-self: center;
+	background-image: linear-gradient(to right, #a37acc 0%, #65b2ff 51%, #63f2f1 100%);
+	margin-top: 5vh;
+	border: none;
+	border-radius: 5rem;
+	color: white;
+	padding: 15px;
+	font-size: 5vw;
+	font-weight: 600;
+}
+
+

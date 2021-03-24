@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="stlye.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<audio id="myAudio">
+  <source src="song.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+	<div class="container">
+		<div class="title">
+<h1>Welcome to</h1><h1 class="audi"> audiphil</h1>
+		</div>
+
+<div class="hero">
+	<h3>Got an audible gift card?<br>You have come to the right place!</h3>
+<p>
+	Here at audiphil we have a decicated team, helping you with the redemption
+	of audible gift cards while giving you double the mileage! To make use make use of
+	our marvelous service all you have to do is launch our state of the art virtual
+	assistant below.
+	</p>
+</div>	
+
+</div>
+<button onclick="playAudio()" type="button">Redeem gift card</button>
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+</body>
+</html>
+
